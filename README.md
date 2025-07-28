@@ -1,6 +1,6 @@
 This program simulates the behavior of a modern web browser with multiple tabs and navigation history, using custom data structures in C. It manages Web Pages, Tabs and Browser.
 
-
+=============================================================================================================================================================================
 
 Input Format:
 The first line contains the number of available web pages
@@ -32,6 +32,7 @@ PAGE 3
 PAGE 2
 PRINT_HISTORY 0
 
+=============================================================================================================================================================================
 
 Data is read from file.in and output is written to file.out.
 
@@ -40,7 +41,7 @@ To test the implementationrun in the terminal the following commands:
 make
 ./file
 
-
+=============================================================================================================================================================================
 
 The browser supports the following commands:
 
@@ -64,8 +65,7 @@ PRINT_HISTORY <ID> – Shows the full history of a given tab (FORWARD, current, 
 
 Technologies & Concepts Used: C programming language, Dynamic Memory Allocation, Modular Programming with Functions, Circular Doubly Linked Lists, Stacks, Input Parsing and Command Execution, Input Validation and Error Handling, File I/O.
 
-
-
+=============================================================================================================================================================================
 
 DOCUMENTATION
 
