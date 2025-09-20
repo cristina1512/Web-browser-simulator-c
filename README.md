@@ -2,7 +2,7 @@ This program simulates the behavior of a modern web browser with multiple tabs a
 
 =============================================================================================================================================================================
 
-Input Format:
+# Input Format
 The first line contains the number of available web pages
 
 For each page, there are 3 lines:
@@ -43,7 +43,7 @@ make
 
 =============================================================================================================================================================================
 
-The browser supports the following commands:
+# The browser supports the following commands
 
 NEW_TAB – Creates a new tab initialized with a default page;
 
@@ -67,7 +67,7 @@ Technologies & Concepts Used: C programming language, Dynamic Memory Allocation,
 
 =============================================================================================================================================================================
 
-DOCUMENTATION
+# DOCUMENTATION
 
 MAIN FUNCTIONALITY:
 After opening the input (fin) and output (fout) files, we read the data from tema1.in.
@@ -118,3 +118,4 @@ PRINT_HISTORY <ID>
 We first verify if the tab with the specified ID exists.
 If so, we print the URLs from the forward stack (in reversed order using copySinv), followed by the URL of the current page, and then the URLs from the backward stack (from top to bottom).
 The printing is done using the print_stack function, which iterates the stack from top to bottom and prints the page URLs.
+
