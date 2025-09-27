@@ -38,8 +38,10 @@ Data is read from file.in and output is written to file.out.
 
 
 To test the implementationrun in the terminal the following commands:
+`````````
 make
 ./file
+`````````
 
 =============================================================================================================================================================================
 
@@ -118,4 +120,5 @@ PRINT_HISTORY <ID>
 We first verify if the tab with the specified ID exists.
 If so, we print the URLs from the forward stack (in reversed order using copySinv), followed by the URL of the current page, and then the URLs from the backward stack (from top to bottom).
 The printing is done using the print_stack function, which iterates the stack from top to bottom and prints the page URLs.
+
 
